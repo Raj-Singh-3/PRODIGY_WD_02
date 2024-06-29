@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stopwatch</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1 id="top">Stop Watch</h1>
+    <div class="box">
+      <h1 id="value1">00:00:00</h1>
+      <div class="img-container">
+        <img src="stop.png" onclick="stopTimer()" />
+        <img src="start.png" onclick="startTimer()" />
+        <img src="reset.png" onclick="resetTimer()" />
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
